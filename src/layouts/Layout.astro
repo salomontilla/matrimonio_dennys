@@ -1,5 +1,5 @@
---- 
-import '../styles/global.css';
+---
+import "../styles/global.css";
 ---
 
 <!doctype html>
@@ -18,8 +18,19 @@ import '../styles/global.css';
     />
   </head>
   <body
-    class="bg-wedding-beige text-wedding-text font-sans antialiased overflow-x-hidden"
+    class="bg-yellow-50 antialiased  overflow-x-hidden"
   >
     <slot />
   </body>
 </html>
+<style>
+  @theme{
+    --font-sans: "Montserrat", sans-serif;
+    --font-serif: "Playfair Display", serif;
+  }
+  html {
+    font-family: var(--font-sans);
+    font-weight: normal;
+    font-style: normal;
+  }
+</style>
