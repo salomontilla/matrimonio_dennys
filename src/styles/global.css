@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@plugin '@midudev/tailwind-animations';
+@theme {
+    --color-wedding-gold: #d4af37;
+    --color-wedding-beige: #faf9f6;
+    --color-wedding-text: #4a4a4a;
+    --color-wedding-mint: #e0f2f1;
+    --color-wedding-gold-light: #f4e5b2;
+
+    --font-sans: "Montserrat", sans-serif;
+    --font-serif: "Playfair Display", serif;
+  }
